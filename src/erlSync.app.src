@@ -1,0 +1,11 @@
+{application, erlSync,
+   [{description, "erlang code auto compile and loader"},
+      {vsn, "0.1.0"},
+      {registered, []},
+      {mod, {erlSync_app, []}},
+      {applications, [kernel, stdlib, syntax_tools, compiler]},
+      {env, []},
+      {modules, []},
+      {licenses, ["MIT License"]},
+      {links, []}
+   ]}.
